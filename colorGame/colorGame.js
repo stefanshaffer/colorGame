@@ -25,6 +25,7 @@ easyButton.addEventListener("click", function(){
 	 		squares[i].style.display = "none"
 	 	}
 	 } 
+	 messageDisplay.textContent = "";
 });
 
 hardButton.addEventListener("click", function(){
@@ -41,6 +42,7 @@ hardButton.addEventListener("click", function(){
 			squares[i].style.display = "block"
 	
 	 } 
+	 messageDisplay.textContent = "";
 
 });
 
